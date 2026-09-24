@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(node --check B4.js)",
+      "Bash(\"/c/Users/Muhammad Ali/AppData/Local/Microsoft/WindowsApps/python.exe\" -c \"print\\('py-real'\\)\")",
+      "Bash(python -)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(awk '{ if \\(length\\($0\\) > 2000\\) print NR\": \"length\\($0\\)\" chars\" }' B1.html)"
+    ]
+  }
+}
